@@ -4,6 +4,13 @@
              x:Class="ButtonTutorial.MainPage">
     <StackLayout Margin="20,35,20,20">
         <Button Text="Click me"
-        Clicked="OnButtonClicked" />
+        Clicked="OnButtonClicked"
+        TextColor="Blue"
+        BackgroundColor="Aqua"
+        BorderColor="Red"
+        BorderWidth="5"
+        CornerRadius="5"
+        WidthRequest="150"
+        HeightRequest="75" />
     </StackLayout>
 </ContentPage>
